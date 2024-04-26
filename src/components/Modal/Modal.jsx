@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './Modal.module.css';
 import Features from '../../components/Features/Features';
 import Reviews from '../../components/Reviews/Reviews';
@@ -19,6 +19,18 @@ const Modal = ({ vehicle, onClose }) => {
     setIsReviewsClicked(true);
     setIsFeaturesClicked(false);
   };
+
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        onClose();
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   return (
     <div className={styles.modalOverlay} onClick={onClose}>
