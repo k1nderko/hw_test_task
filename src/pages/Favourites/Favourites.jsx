@@ -46,7 +46,7 @@ const Favourites = () => {
               <div className={styles.headline}>
                   <h1 className={styles.heading}>{vehicle.name}</h1>
                   <div className={styles.end}>
-                  <p className={styles.price}>€{vehicle.price}</p>
+                  <p className={styles.price}>€{vehicle.price.toFixed(2)}</p>
                   {favourites.includes(vehicle._id) ? (
                       <RedHeartIcon className={styles.heartIcon} onClick={() => handleToggleFavourite(vehicle._id)} />
                     ) : (

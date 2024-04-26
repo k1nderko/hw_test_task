@@ -31,7 +31,7 @@ const Modal = ({ vehicle, onClose }) => {
           <LocationIcon className={styles.locationIcon} />
           <p className={styles.location}>{vehicle.location}</p>
         </div>
-        <p className={styles.price}>€{vehicle.price}</p>
+        <p className={styles.price}>€{vehicle.price.toFixed(2)}</p>
         <ul className={styles.imgList}>
           {vehicle.gallery.map((image, index) => (
             <li key={index} className={styles.imgItem}>
