@@ -30,7 +30,7 @@ const Modal = ({ vehicle, onClose }) => {
     document.addEventListener('keydown', handleKeyDown);
 
     return () => document.removeEventListener('keydown', handleKeyDown);
-  }, []);
+  }, [onClose]);
 
   return (
     <div className={styles.modalOverlay} onClick={onClose}>
