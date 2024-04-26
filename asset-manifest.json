@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hw_test_task/static/css/main.e2c1a6b1.css",
-    "main.js": "/hw_test_task/static/js/main.d4ddc579.js",
+    "main.css": "/hw_test_task/static/css/main.51367fd2.css",
+    "main.js": "/hw_test_task/static/js/main.1108d7e3.js",
     "static/media/ac.svg": "/hw_test_task/static/media/ac.3fa8d876573e81d0e423faf46aa4efed.svg",
     "static/media/alcove.svg": "/hw_test_task/static/media/alcove.18c3fc427a5298ec63b29e3a479b76ac.svg",
     "static/media/fully_integrated.svg": "/hw_test_task/static/media/fully_integrated.3c57f596f684ac9c99d342648df500bd.svg",
@@ -29,11 +29,11 @@
     "static/media/shower_wc.svg": "/hw_test_task/static/media/shower_wc.ad88a8d99c1a7e345154aaa8c70799cc.svg",
     "static/media/kitchen.svg": "/hw_test_task/static/media/kitchen.1d69252845b6b8717bd15e71e0b0f330.svg",
     "static/media/close.svg": "/hw_test_task/static/media/close.25dc3f46a342a188874fa545ced03ca2.svg",
-    "main.e2c1a6b1.css.map": "/hw_test_task/static/css/main.e2c1a6b1.css.map",
-    "main.d4ddc579.js.map": "/hw_test_task/static/js/main.d4ddc579.js.map"
+    "main.51367fd2.css.map": "/hw_test_task/static/css/main.51367fd2.css.map",
+    "main.1108d7e3.js.map": "/hw_test_task/static/js/main.1108d7e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2c1a6b1.css",
-    "static/js/main.d4ddc579.js"
+    "static/css/main.51367fd2.css",
+    "static/js/main.1108d7e3.js"
   ]
 }
